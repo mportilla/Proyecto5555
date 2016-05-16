@@ -1,0 +1,124 @@
+<!DOCTYPE HTML>
+<head>
+<meta charset="UTF-8"/>
+<link rel="shortcut icon" type="image/x-icon" href="imagenes\logo-url.ico" />
+<link rel="stylesheet" href="index.css"/>
+<title> Unete </title>
+</head>
+<body>
+    <header>
+    <div id="logo">
+      <a href="index.html"> <img src="imagenes/logo.png"alt="logo comp"/>  </a> 
+     <p> MEGAMODA </p>
+    </div>
+     <nav>
+        <div class="navdiv">
+            <a href="noticias.html">Noticias</a>
+            <a href="desfiles.html">Desfiles</a>
+            <a href="marcas.html">Marcas</a>
+            <a href="nosotros.html">Nosotros</a>
+            <a href="unete.html">Únete</a>
+        </div>
+    </nav>
+    </header>   
+    
+    
+    
+    <section id="cuerpo">
+    <h1 class="tituloart"> ¡Registrate y conseguirás tu ejemplar en casa todos los meses! </h1>
+        <article class="formulario">
+            
+            <form id="formulario">
+            <fieldset>
+            <legend>Datos cliente</legend>
+            
+            <ul>
+            <li>
+            <label for="nombre">Nombre y Apellidos: </label>
+            <input id="nombre" name="nombre" type="text" placeholder="Escribe tu nombre y apellidos" required autofocus>
+            </li>
+           <li>
+            <label for="fechanac">Fecha de nacimiento: </label>
+            <input id="fechanac" name="fechanac" type="date"  required>
+            </li>
+            <li>
+            <label for="sexo">Sexo:    </label>
+            <label for="sexo">Mascuino </label>
+            <input id="sexoM" name="sexo" type="radio" >
+            <label for="sexo">Femenino </label>
+            <input id="sexoF" name="sexo" type="radio" checked>
+            </li>
+            <li>
+            <label for="direccion">Dirección: </label>
+            <input id="direccion" name="direccion" type="text"placeholder="C/..."  required>
+           </li>
+           <li>
+            <label for="ciudad">Ciudad:</label>
+            <input id="ciudad" name="ciudad" type="text" required>
+           </li>
+           <li>
+            <label for="provincia">Provincia: </label>
+            <input id="povincia" name="provincia" type="text" required>
+           </li>
+           <li>
+            <label for="codppost">Codigo Postal: </label>
+            <input id="codpost" name="codpost" type="number" placeholder="9999"  required>
+           </li>
+           <li>
+            <label for="codppost">País: </label>
+            <select name="pais" size="1" > 
+            <option value="Espana" selected>España</option> 
+            <option value=”valor enviado2”>EEUU</option> 
+            <option value=”valor enviado3”>Francia</option> 
+             <option value=”valor enviado3”>Italia</option>
+            </select> 
+
+           </li>
+           <li>
+            <label for="email">Email: </label>
+            <input id="email" name="email" type="email" placeholder="correo@dominio.com" required>
+           </li>
+           <li>
+            <label for="telefono">Teléfono: </label>
+            <input id="telefono" name="telefono" type="tel" placeholder="Ej. +34658413585" required>
+           </li>
+           <li>
+            <label for="pais">Teléfono 2 (opcional)</label>
+            <input id="telefono" name="telefono" type="tel" placeholder="Ej. +34658413585" required>
+           </li>
+       </ul>
+		</fieldset>
+		<fieldset>
+            <legend>Datos de pago</legend>
+            
+            <ul>
+            <li>
+            <label for="numtarj"> Número de tarjeta: </label>
+            <input id="numtarj" name="numtarj" type="number" placeholder="4561-1564-2365-4582" required autofocus>
+            </li>
+           <li>
+            <label for="Titulartarj"> Titular: </label>
+            <input id="Titulartarj" name="Titulartarj" type="text"  required>
+            </li>
+			 <li>
+            <label for="cvv"> CVV: </label>
+            <input id="cvv" name="cvv" type="number"  required>
+            </li>
+			</ul>
+		</fieldset>
+		 <button type="submit"> Eniar datos</button>
+		</form>
+        </article>
+     
+    </section>
+  
+    <footer>
+       
+         MEGAMODA S.L.<br>
+         Calle Pinar de los Rios S/N <br>
+         28062 Madrid(España)<br>
+		 915847362 / 902896574 <br>
+         MEGAMODA S.L.© 2015  
+      
+    </footer>
+</body>
